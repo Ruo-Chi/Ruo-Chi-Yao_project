@@ -37,21 +37,23 @@ Inspired by the [Recurse Centre](https://www.recurse.com/) initiative (formally 
 
 ### Tools
 
-The "project template" project will rely on the following technologies:
- * Markdown, to structure the text.
- * The Hugo website framework which is used by the BHS website. This makes it possible to easily add the markdown project description to the website.
- * Adding the project to the website relies on github, through pull requests.
+The dataset processing by useing mne-python
 
 ### Data
 
-Ultimately, the project template will be used by all BHS participants. Data on the different projects will be aggregareted on the [following page](https://psy6983.brainhackmtl.org/project). This will serve as an additional example gallery in the years to come for future brainhack school students. Many reports from [BHS 2020](https://github.com/brainhack-school2020) already used this template.
+Dataset: [Auditory single word recognition in MEG – OpenNeuro](https://openneuro.org/datasets/ds004276/versions/1.0.0)
+- There are files for 18 subjects, but 12 of them can be download successfully.
+- 1000 trials for one subject, that is each subject listens to 1000 words.
+- There are 97 extra words specifically for semantic probe tasks that involve go/no-go trials.
+- Data are recorded using MEG.
+
 
 ### Deliverables
 
 At the end of this project, we will have:
- - The current markdown document, completed and revised.
- - A gallery of the student projects at Brainhack 2020.
- - Instructions on the website about how to submit a pull request to the [brainhack school website](https://github.com/PSY6983-2021) in order to add the project description to the website.
+ - A GitHub repository.
+ - A markdown document.
+ - MEG data analysis with MNE-Python.
 
 ## Results
 
