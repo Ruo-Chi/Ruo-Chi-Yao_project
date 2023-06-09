@@ -46,11 +46,25 @@ The dataset processing by useing mne-python
 
 ![alt text](https://github.com/Ruo-Chi/Ruo-Chi-Yao_project/blob/main/images/methods.png)
 
-- Read & Load raw data
-- Filter & Down sample
+- Read & load raw data
+
+ ![alt text](https://github.com/Ruo-Chi/Ruo-Chi-Yao_project/blob/main/images/Read%20%26%20Load%20raw%20data.png)
+ 
+- Filter & down sample
+
+![alt text](https://github.com/Ruo-Chi/Ruo-Chi-Yao_project/blob/main/images/Filter%20%26%20Down%20sample.png)
+
 - Find event id
+
+![alt text](https://github.com/Ruo-Chi/Ruo-Chi-Yao_project/blob/main/images/Find%20event%20id.png)
+
 - Do artifact rejection & slice the data into epochs
-- Working with Epoch metadata & Visualizing Evoked data
+
+![alt text](https://github.com/Ruo-Chi/Ruo-Chi-Yao_project/blob/main/images/Do%20artifact%20rejection%20%26%20slice%20the%20data%20into%20epochs.png)
+
+- Working with epoch metadata & visualizing evoked data
+
+![alt text](https://github.com/Ruo-Chi/Ruo-Chi-Yao_project/blob/main/images/Working%20with%20Epoch%20metadata%20%26%20Visualizing%20Evoked%20data.png)
 
 
 ### Data
@@ -72,16 +86,36 @@ At the end of this project, we will have:
 ## Results
 
 ### Frequency effects
+![alt text](https://github.com/Ruo-Chi/Ruo-Chi-Yao_project/blob/main/images/Results_Frequency%20effects.png)
 
 ### Orthographic neighborhood
+![alt text](https://github.com/Ruo-Chi/Ruo-Chi-Yao_project/blob/main/images/Results_Orthographic%20neighborhood.png)
 
 ### Part of speech
+![alt text](https://github.com/Ruo-Chi/Ruo-Chi-Yao_project/blob/main/images/Results_Part%20of%20speech.png)
 
+## Conclusion
 
-## Conclusion and acknowledgement
+### Frequency effects
+- the effect can be seen from 0ms to 200ms and 450ms to 600 ms time window
+- in consistence with the result that word frequency effects become stronger and more widespread from 200ms to 300ms and 400ms to 500ms respectively (Dufau et al., 2015)
 
-The BHS team hope you will find this template helpful in documenting your project. Developping this template was a group effort, and benefitted from the feedback and ideas of all BHS students over the years.
+### Orthographic neighborhood
+- the effect can be seen after 300ms time window
+- in consistence with the result that the effects of  orthographic neighborhood size emerge around 280 ms (Dufau et al., 2015)
 
+### Part of speech
+- the effect can be seen after 250 ms time window
+- in consistence with the result that verbs are more negative than nouns about 300 and 1,000 ms (Rösler et al., 2001)
 
 ## References
+- Brysbaert, M., Mandera, P., & Keuleers, E. (2018). The word frequency effect in word processing: An updated review. Current Directions in Psychological Science, 27(1), 45-50.
+- Dufau, S., Grainger, J., Midgley, K. J., & Holcomb, P. J. (2015). A thousand words are worth a picture: Snapshots of printed-word processing in an event-related potential megastudy. Psychological science, 26(12), 1887-1897.
+- Gaston, P., Brodbeck, C., Phillips, C., & Lau, E. (2023). Auditory word comprehension is less incremental in isolated words. Neurobiology of Language, 4(1), 29-52.
+- Marian, V., Bartolotti, J., Chabal, S., & Shook, A. (2012). CLEARPOND: Cross-linguistic easy-access resource for phonological and orthographic neighborhood densities.
+- Rösler, F., Streb, J., & Haan, H. (2001). Event-related brain potentials evoked by verbs and nouns in a primed lexical decision task. Psychophysiology, 38(4), 694-703.
+
+
+
+
 
